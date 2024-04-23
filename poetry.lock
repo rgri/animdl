@@ -81,13 +81,13 @@ files = [
 
 [[package]]
 name = "comtypes"
-version = "1.1.14"
+version = "1.4.1"
 description = "Pure Python COM package"
 optional = false
 python-versions = "*"
 files = [
-    {file = "comtypes-1.1.14-py2.py3-none-any.whl", hash = "sha256:7cdbe2dc65fe105eea97be04dc50ee3178747bcb64d802d7c0832416d75a87bd"},
-    {file = "comtypes-1.1.14.zip", hash = "sha256:5d7caf6d3a86d51ddfc53e4548cae2dceee1b46672f8bd59679711dd01a934f2"},
+    {file = "comtypes-1.4.1-py3-none-any.whl", hash = "sha256:a208a0e3ca1c0a5362735da0ff661822801dce87312b894d7d752add010a21b0"},
+    {file = "comtypes-1.4.1.zip", hash = "sha256:4379443876465c6015fe801d6665b7c75d9ed5b169deee0161a00637f4ebbd2e"},
 ]
 
 [[package]]
@@ -841,4 +841,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.7,<4.0"
-content-hash = "89fe97c85b73ce907f5b2c64e65bded6957909ddc2c4d538af7e4206e3168c5f"
+content-hash = "8969726fc79617e9bf8829e4a76163a9d1b3a8a0387fef9b96ef7d08b68f1d9f"
