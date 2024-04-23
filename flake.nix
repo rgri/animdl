@@ -21,6 +21,7 @@
         packages = {
           myapp = mkPoetryApplication {
             projectDir = self;
+            preferWheels = true;
             overrides = defaultPoetryOverrides.extend (self: super: {
               anitopy = super.anitopy.overridePythonAttrs (old: {
                 buildInputs = (old.buildInputs or [ ]) ++ [ super.setuptools ];
